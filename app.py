@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient, functions, types
 
-api_id = '20137809'
-api_hash = '698eb58cdc4aff6a38cdae8bc5623f17'
-phone_number = '+77765287758'
+api_id = ''
+api_hash = ''
+phone_number = '+'
 
 with TelegramClient('tam_syam', api_id, api_hash) as client:
     # Unsubscribe from all channels
